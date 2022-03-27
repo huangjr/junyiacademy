@@ -23,7 +23,7 @@ def delet_numbers(number):
 
 # Question 3: 印出所有數字
 def print_number(numbers):
-    summ = sum([numbers])
+    summ = sum(numbers)
     return summ
 
 # result is below~
