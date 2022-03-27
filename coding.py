@@ -23,9 +23,9 @@ def delet_numbers(number):
 
 # Question 3: 印出所有數字
 def print_number(numbers):
-    for i in numbers:
-        print(i)
-
+    summ = sum([i-1 for i in numbers])
+    return summ
+    
 # result is below~
 # print(flip_one_word("amy"))
 # print(flip_sentence("flipped class room is important"))
