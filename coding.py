@@ -15,10 +15,10 @@ def flip_sentence(words):
 def delet_numbers(number):
     answer = []
     for i in range(1, number+1):
+        if i % 3 == 0 and i % 5 == 0:
+            answer.append(i)             
         if i % 3 != 0 and i % 5 != 0:
             answer.append(i)
-        if i % 3 == 0 and i % 5 == 0:
-            answer.append(i)     
     return len(answer)
 
 
